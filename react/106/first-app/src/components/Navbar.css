@@ -1,0 +1,16 @@
+nav{
+    background: rgb(223, 108, 108);
+    padding: 36px;
+}
+
+nav, ul{
+    display: flex;  
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    gap: 34px;
+}

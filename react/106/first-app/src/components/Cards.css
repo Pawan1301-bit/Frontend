@@ -1,0 +1,8 @@
+.card{
+    width: 20vw;
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    margin: 34px;
+    padding: 8px;
+    /* display: flex; */
+}
