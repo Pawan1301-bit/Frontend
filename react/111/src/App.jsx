@@ -11,7 +11,8 @@ function App() {
   //if i declare it as an empty object this will through an error so we have to use condition for handling this
 
   const handleClick = ()=>{
-    alert("btn is clicked");
+    // alert("btn is clicked");
+    console.log(form)
   }
   // const handlemouseover = ()=>{
   //   alert("we have a mouse over this side");
@@ -19,7 +20,8 @@ function App() {
   const handleChange = (e)=>{
     // setName(e.target.value)
     setform({...form,  [e.target.name]:e.target.value});
-    console.log(form)
+    // ...form is called spread operator -- it is used to copy the existing state without loosing the previous value
+    
   }
 
   return (

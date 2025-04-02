@@ -52,7 +52,8 @@ function App() {
         {/*whenever we render a lit using map we  have to provide it a unique key  */}
         {todos.map(todo=>{
           return <Todo key={todo.title} todo={todo}/>
-        }) }
+        }) }  
+        {/* map, filter and  */}
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>

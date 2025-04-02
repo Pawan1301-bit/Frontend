@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  //in usestate this count is not a variable it is called state variable
   const [count, setCount] = useState(0)
   const a = useRef(0);  //usecase1: to acess any element using ref
   const ref = useRef();
